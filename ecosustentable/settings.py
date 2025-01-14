@@ -153,7 +153,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000', # React
-    'http://localhost:8000' # Django
+    'http://localhost:8000' # Django,
+    "https://limonropa.vercel.app/"
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
