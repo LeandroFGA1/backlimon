@@ -70,7 +70,7 @@ ROOT_URLCONF = 'ecosustentable.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'static/frontend']
+        'DIRS': []
         ,
         'APP_DIRS': True,
         'OPTIONS': {
@@ -154,7 +154,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000', # React
     'http://localhost:8000' # Django,
-    "https://limonropa.vercel.app/"
+    "https://limonropa.vercel.app/",
+    "https://backlimon.onrender.com/"
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
