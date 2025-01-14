@@ -96,7 +96,7 @@ DATABASES = {
         'NAME': 'EcoSustentable',
         'USER': 'ardilla',
         'PASSWORD': 'Wildlife7-Banking5-Conducive6-Salsa1',
-        'HOST': '186.67.255.244',
+        'HOST': '152.230.70.162',
         'PORT': '3306',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
